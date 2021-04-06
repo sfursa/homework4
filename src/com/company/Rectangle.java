@@ -9,6 +9,11 @@ public class Rectangle {
         this.y = y;
     }
 
+    public Rectangle(double x) {
+        this.x = x;
+        y = x;
+    }
+
     double calculateArea() {
         double calculateArea = x * y;
         return calculateArea;
@@ -28,6 +33,6 @@ public class Rectangle {
 
     boolean isTheSameRectangle(Rectangle rectangle) {
         System.out.println("Прямоугольники равны?");
-        return this.x == (rectangle.x) && this.y == (rectangle.y);
+        return this.x == rectangle.x && this.y == rectangle.y;
     }
 }
