@@ -23,6 +23,12 @@ public class Main {
 
         System.out.println(rectangle1.isTheSameRectangle(rectangle2));
 
+        System.out.println();
+        Rectangle.printRectanglesCount();
+
+        System.out.println();
+        Rectangle.printClassNmae(false);
+
 
     }
 }
